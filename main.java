@@ -1,7 +1,17 @@
 import java.util.Scanner;
 
+/**
+ * Universidad del valle de Guatemala
+ * @author Christopher Chiroy, 14411
+ * Interfaz de usurario
+ *
+ */
 public class main {
 
+	/**
+	 * @param args
+	 * Interfaz de usuario, en la que interactua el programa y el usuario
+	 */
 	public static void main(String args[]){
 		Scanner teclado = new Scanner(System.in);
 		System.out.println("Ingrese el tipo que desea\n1. HashSet\n2. LinkedHashSet\n3. TreeSet");
